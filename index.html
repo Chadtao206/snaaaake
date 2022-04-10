@@ -13,6 +13,7 @@
         main {
             height: 100vh;
             background: lightblue;
+            text-align: center;
         }
 
         h1 {
@@ -36,18 +37,28 @@
             height: 20px;
             font-size: 18px;
             text-align: center;
-        }
+        }   
 
         .game .row span.solid {
             background-color: black;
+        }
+
+        button {
+            padding: 5px;
+            margin-top: 5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
         }
 
     </style>
 </head>
 <body>
     <main>
-        <h1>Snake</h1>
+        <h1>Snaaaaake</h1>
         <div style="text-align: center;">SCORE <span class="score">0</span></div>
+        <button>Auto Mode: <span class="auto">OFF</span></button>
     </main>
     <script src="./index.js"></script>
 </body>
